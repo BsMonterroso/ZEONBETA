@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="es">
 
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/nav.css">
-   
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/login.css">
+
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	    <meta name="viewport" content="width=device-width, initical-scale=1.0"> 
         
@@ -13,37 +15,49 @@
     </head>
 
     <body>
-  
-    <header>
-        <nav>
-            <div class="menu">
+        <header>
+            <nav>
+                <div class="menu">
+                    <div class="logo">
+                        <img src="img/logoZeon.jpg">
+                    </div>
 
-                <div class="logo">
-                    <img src="img/logoZeon.jpg">
+                    <div class="menus">
+                        <a href="#" class="hover">Inicio</a>
+                        <a href="#">Cursos</a>
+                        <a href="#">Proyectos</a>
+                    </div>
                 </div>
 
-                <div class="menus">
-                    <a href="#" class="hover">Inicio</a>
-                    <a href="#">Cursos</a>
-                    <a href="#">Proyectos</a>
+                <div class="boton">
+                    <a href="login.html"><button class="inicia">Inicia Sesion</button></a>
+                </div>
+            </nav>
+            
+            <div class="anuncio">
+                Los dinosaurios jamas existieron segun la bibli 
+            </div>
+        </header>
+        <!----------------------- SECCIÓN DEL CUERPO DE LA PÁGINA ------------------------>
+        <div class="body">
+            
+            <div class="rm_login">
+                <h2>INICIAR SESIÓN</h2>
+                <input id="rm_entradaUsuario" class="rm_estiloInputText" type="email" placeholder="Correo electronico">
+                <input id="rm_entradaPassword" class="rm_estiloInputText" type="password" placeholder="Contraseña">
+                <botton id="rm_botonInisiarSesion" class="rm_estiloBoton">
+                    <span class="rm_tituloBoton">Inisiar Sesión</span>
+                </botton>
+                <div class="rm_cajaCheck">
+                    <div class="rm_check">
+                        <input type="checkbox" id="rm_check" class="rm_estiloCheck">
+                    </div>
+                    <label>Recuerdame</label>
                 </div>
             </div>
 
-            <div class="boton">
-                <button class="inicia">Inicia Sesion</button>
-            </div>
-        </nav>
-        
-        <div class="anuncio">
-            Los dinosaurios jamas existieron segun la bibli 
         </div>
-    </header>
-
-
-    
-        
-    <footer>    
-    </footer>    
-        
+        <!---------------------------- SECCIÓN DEL FOOTER ------------------------------->
+        <footer></footer>
     </body>
 </html>
