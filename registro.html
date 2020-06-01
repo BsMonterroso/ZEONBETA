@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="es">
 
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/nav.css">
-        <link rel="stylesheet" href="css/banner.css">
-        <link rel="stylesheet" href="css/contenido.css">
-        
-        
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/login.css">
+
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	    <meta name="viewport" content="width=device-width, initical-scale=1.0"> 
         
@@ -16,78 +15,51 @@
     </head>
 
     <body>
-  
-    <header>
-        <nav>
-            <div class="menu">
+        <header>
+            <nav>
+                <div class="menu">
+                    <div class="logo">
+                        <img src="img/logoZeon.jpg">
+                    </div>
 
-                <div class="logo">
-                    <img src="img/logoZeon.jpg">
+                    <div class="menus">
+                        <a href="#" class="hover">Inicio</a>
+                        <a href="#">Cursos</a>
+                        <a href="#">Proyectos</a>
+                    </div>
                 </div>
 
-                <div class="menus">
-                    <a href="#" class="hover">Inicio</a>
-                    <a href="#">Cursos</a>
-                    <a href="#">Proyectos</a>
+                <div class="boton">
+                    <a href="login.html"><button class="inicia">Inicia Sesion</button></a>
                 </div>
+            </nav>
+            
+            <div class="anuncio">
+                Los dinosaurios jamas existieron segun la bibli 
+            </div>
+        </header>
+        <!----------------------- SECCIÓN DEL CUERPO DE LA PÁGINA ------------------------>
+        <div class="body">
+            
+            <div class="rm_login">
+                <h2>ZEON</h2>
+                <input id="rm_nombreCompleto" class="rm_estiloInputText" type="text" placeholder="Nombre Completo">
+                <input id="rm_entradaUsuario" class="rm_estiloInputText" type="email" placeholder="Correo electronico">
+                <input id="rm_Password" class="rm_estiloInputText" type="password" placeholder="Contraseña">
+                <input id="rm_ConfirmacionPassword" class="rm_estiloInputText" type="password" placeholder="Contraseña">
+                <botton id="rm_botonInisiarSesion" class="rm_estiloBoton">
+                    <span class="rm_tituloBoton">Crear cuenta</span>
+                </botton>
+                <div class="rm_cajaCheck">
+                    <div class="rm_check">
+                        <input type="checkbox" id="rm_check" class="rm_estiloCheck">
+                    </div>
+                    <label>Términos y servicios</label>
+                </div> 
             </div>
 
-            <div class="boton">
-                <button class="inicia">Inicia Sesion</button>
-            </div>
-        </nav>
-        
-        <div class="anuncio">
-            Los dinosaurios jamas existieron segun la bibli 
         </div>
-    </header>
-
-
-    <div class="contenedor">
-        <div class="banner">
-               <div class="slogan"> <h1>TU CURSO HACIA EL EXITO</h1></div> 
-                <div class="info"><p>Adquiere habilidades con los cursos, certificados y títulos en línea que ofrecen las universidades y las empresas más importantes del mundo.</p></div>
-            
-                <div class="boton2">
-                    <button class="unirte">Unirte Gratis</button>
-                </div>
-            
-        </div>
-        
-        
-        <div class="encabezado2">
-            <div class="presentacion">
-            Aprendizaje de primera clase para todos, en cualquier lugar
-            </div>
-        
-            <div class="explicacion">
-                <p>Capacitamos a tu empresa en transformación<br> digital y las tecnologías más competitivas del<br> mercado.</p>
-            </div>
-        </div>
-        
-
-    <nav> 
-        <div class="barraLateral">
-            <div class="textosubmenu">
-            <h2>Cursos</h2>
-            <p>En los que nos especializamos:</p>
-            </div>
-            
-            <div class="submenus"> 
-          <a class="active" href="#">Crecimiento Profesional</a>
-          <a href="#">Tecnologia e Innovacion</a>
-          <a href="#">produccion audiovisual</a>
-          <a href="#">progamacion orientada a objetos</a>
-          <a href="#">progamacion basica</a>
-            </div>  
-            
-        </div>      
-    </nav> 
-        
-    </div>    
-        
-    <footer>    
-    </footer>    
-        
+        <!---------------------------- SECCIÓN DEL FOOTER ------------------------------->
+        <footer></footer>
     </body>
 </html>
