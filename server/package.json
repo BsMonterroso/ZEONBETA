@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Zeon is education plataform for technology",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BsMonterroso/ZEONBETA.git"
+  },
+  "author": "Albert Johanson, Bryan Monterroso, Josue Fuentes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BsMonterroso/ZEONBETA/issues"
+  },
+  "homepage": "https://github.com/BsMonterroso/ZEONBETA#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.17"
+  }
+}
