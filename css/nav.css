@@ -26,8 +26,8 @@ header nav {
 }
 
 .logo img {
-    margin: 10px;
-    width: 75px;
+    margin: px;
+    width: 60px;
 }
 
 .menus a {
@@ -52,12 +52,21 @@ header nav {
     outline: none;
 }
 
+.anuncio {
+    width: 100%;
+    background: #156EDC;
+    color: #fff;
+    text-align: center;
+
+}
+
+
 /*ocultamos div de ceular*/
 .phone-top {
     display: none;
 }
 
-@media screen and (max-width:470px) {
+@media screen and (max-width:500px) {
 
     header nav {
         display: flex;
@@ -93,6 +102,7 @@ header nav {
         outline: none;
 
     }
+
     /*aqui acaba el top*/
 
     .logo img {
