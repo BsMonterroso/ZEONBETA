@@ -18,17 +18,29 @@
         <header>
             <nav>
                 <div class="menu">
+    
                     <div class="logo">
-                        <img src="img/logoZeon.jpg">
+                        <a href="index.html"><img src="img/logoZeon.jpg"></a>
                     </div>
-
+                    <!--div creado para adaptar a celular se oculta en el css-->
+                    <div class="phone-top">
+    
+                        <div class="img-phone">
+                            <a href="index.html"><img src="img/logoZeon.jpg"></a>
+                        </div>
+                        <div class="button-phone">
+                            <a href="login.html"><button class="inicia">Inicia Sesion</button></a>
+                        </div>
+                    </div>
+                    <!--aqui termina el div del celular-->
+    
                     <div class="menus">
-                        <a href="#" class="hover">Inicio</a>
-                        <a href="#">Cursos</a>
-                        <a href="#">Proyectos</a>
+                        <a href="index.html" class="hover">Inicio</a>
+                        <a href="cursos.html">Cursos</a>
+                        <a href="proyectos.html">Proyectos</a>
                     </div>
                 </div>
-
+    
                 <div class="boton">
                     <a href="login.html"><button class="inicia">Inicia Sesion</button></a>
                 </div>
@@ -65,13 +77,107 @@
             </div>
         </section>
 
-        <!----------------------- AREA DE CURSOS DEL ESTUDIANTE  ------------------------
-        <section class="section100">
+        <!----------------------- AREA DE CURSOS DEL ESTUDIANTE  ------------------------>
+        <section class="section100 color1">
             <div class="body">
+
                 <h2>MIS CURSOS</h2>
+                <div class="linea"></div>
+
+                <div class="cajaDecursos">
+
+                    <div class="curso">
+                        <div class="imgCurso"></div>
+                        <h3 class="tituloCurso">Introducción a redes informaticas nivel 1</h3>
+                       <p class="profesor">Profesor: Bell Gates</p>
+                        <div class="cajaBotones">
+                            <p class="porsentajeDelCurso">40%</p>
+                            <progress class="disBarraProgreso" min="0" max="100" value="40"></progress>
+                            <a href="#"><p class="botonContinuarCurso">Continuar</p></a>
+                        </div>
+                    </div>
+
+                    <div class="curso">
+                        <div class="imgCurso"></div>
+                        <h3 class="tituloCurso">Introducción a redes informaticas nivel</h3>
+                       <p class="profesor">Profesor: Bell Gates</p>
+                        <div class="cajaBotones">
+                            <p class="porsentajeDelCurso">50%</p>
+                            <progress class="disBarraProgreso" min="0" max="100" value="50"></progress>
+                            <a href="#"><p class="botonContinuarCurso">Continuar</p></a>
+                        </div>
+                    </div>
+
+                    <div class="curso">
+                        <div class="imgCurso"></div>
+                        <h3 class="tituloCurso">edes informaticas nivel 1</h3>
+                       <p class="profesor">Profesor: Bell Gates</p>
+                        <div class="cajaBotones">
+                            <p class="porsentajeDelCurso">100%</p>
+                            <progress class="disBarraProgreso" min="0" max="100" value="100"></progress>
+                            <a href="#"><p class="botonContinuarCurso" style="background-color: green;">Repasar</p></a>
+                        </div>
+                    </div>
+
+                    <div class="curso">
+                        <div class="imgCurso"></div>
+                        <h3 class="tituloCurso">edes informaticas nivel 1</h3>
+                       <p class="profesor">Profesor: Bell Gates</p>
+                        <div class="cajaBotones">
+                            <p class="porsentajeDelCurso">80%</p>
+                            <progress class="disBarraProgreso" min="0" max="100" value="80"></progress>
+                            <a href="#"><p class="botonContinuarCurso">Continuar</p></a>
+                        </div>
+                    </div>
+
+                    <div class="curso">
+                        <div class="imgCurso"></div>
+                        <h3 class="tituloCurso">edes informaticas nivel 1</h3>
+                       <p class="profesor">Profesor: Bell Gates</p>
+                        <div class="cajaBotones">
+                            <p class="porsentajeDelCurso">10%</p>
+                            <progress class="disBarraProgreso" min="0" max="100" value="10"></progress>
+                            <a href="#"><p class="botonContinuarCurso">Continuar</p></a>
+                        </div>
+                    </div>
+
+                    <div class="curso">
+                        <div class="imgCurso"></div>
+                        <h3 class="tituloCurso">edes informaticas nivel 1</h3>
+                       <p class="profesor">Profesor: Bell Gates</p>
+                        <div class="cajaBotones">
+                            <p class="porsentajeDelCurso">25%</p>
+                            <progress class="disBarraProgreso" min="0" max="100" value="25"></progress>
+                            <a href="#"><p class="botonContinuarCurso">Continuar</p></a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
-        -------------------------- SECCIÓN DEL FOOTER ------------------------------->
+
+
+        <!----------------------- AREA DE CURSOS SUGERIDOS  ------------------------>
+        <section class="section100 color1">
+            <div class="body">
+
+                <h2>CURSOS RELACIONADOS</h2>
+                <div class="linea"></div>
+
+                <div class="cajaDecursos">
+                    <div class="curso">
+                        <div class="imgCurso"></div>
+                        <h3 class="tituloCurso">Introducción a redes informaticas nivel 1</h3>
+                       <p class="profesor">Profesor: Bell Gates</p>
+                        <div class="cajaBotones">
+                            <a href="#"><p class="botonContinuarCurso">Cursar</p></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-------------------------- SECCIÓN DEL FOOTER ------------------------------->
         <footer></footer>
     </body>
 </html>

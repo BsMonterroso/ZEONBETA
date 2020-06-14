@@ -6,7 +6,7 @@
 
     font-size: 10px;/*<--- tamaño general*/
     width: 50em;
-    height: 70em;
+    height: 65em;
     padding: 3em 3em 3em 3em;
     box-sizing: border-box;
     position: relative;
@@ -56,7 +56,7 @@
 }
 
 .correoUsuario{
-    font-size: 1.5em;
+    font-size: 1.8em;
     text-align: center;
     color: gray;
 }
@@ -73,3 +73,105 @@
 }
 
 /*SECCIÓN DE LOS CUERSOS DEL ESTUDIANTE*/
+
+.cajaDecursos{
+
+    width: 100%;
+    height: auto;
+    margin-top: 3em;
+    overflow: hidden;
+}
+
+.curso{
+    font-size: 10px;/*<--- TAMAÑO GENERAL*/
+
+    width: 28em;
+    height: 35em;
+    margin: 2em 1em 2em 1em;
+    border-radius: 10px 10px 0px 0px;
+    float: left;
+    position: relative;
+    background-color: #F4F4F4;
+}
+.imgCurso{
+    width: 28em;
+    height: 15em;
+    margin: auto;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url("../img/imgCursos/redesNivel1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.tituloCurso{
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-left: 1em;
+    text-align: left;
+    color: var(--colorTexto);
+}
+.profesor{
+    font-size: 1.3em;
+    margin-top: 1em;
+    margin-left: 1em;
+    text-align: left;
+    color: var(--colorTexto);
+}
+
+/*DISEÑO DE LA BARRA DE PROGRESO*/
+.disBarraProgreso{
+    width: 20em;
+    height: 2em;
+    margin-left: 3.8em;
+}
+.porsentajeDelCurso{
+    font-size: 1.5em; 
+    text-align: right; 
+    margin-top: 1em;
+    margin-right: 2.2em;
+}
+
+.cajaBotones{
+    width: 27em;
+    height: auto;
+    position: absolute;
+    bottom: 1em;
+}
+.botonContinuarCurso{
+    width: 15em;
+    height: 2.5em;
+    padding-top: 0.7em;
+    box-sizing: border-box;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 1.5em;
+    /*float: right;*/
+    margin: auto;
+    margin-top: 1em;
+    margin-left: 1.9em;
+    background-color: var(--colorBase);
+    color: #ffffff;
+}
+
+/*RESOLUCIÓN DE 1360px*/
+@media only screen and (max-width: 1360px) {
+    
+    .curso{
+        font-size: 8px;/*<--- tamaño general*/
+    }
+
+}
+
+@media only screen and (max-width:767px) {
+
+    .curso{
+        font-size: 13px;/*<--- TAMAÑO GENERAL*/
+
+        width: 28em;
+        height: 35em;
+        margin: auto;
+        margin-bottom: 2em;
+        float: none;
+    }
+}
+
+

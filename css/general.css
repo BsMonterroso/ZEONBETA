@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: sans-serif;
 }
 .section100{
     width: 100%;
@@ -13,8 +14,28 @@
     width: 1200px;
     margin: auto;
 }
+.linea{
+    width: 40%;
+    height: 5px;
+    background-color: var(--colorBase);
+}
+
+/*MEDIDAS PARA EL TELEFONO*/
+
+/*RESOLUCIÓN DE 767*/
+@media only screen and (max-width: 767px) {
+
+    .body{
+        width: 95%;
+        margin: auto;
+    }
+}
 
 /*COLORES DE LA PÁGINA*/
 :root{
     --colorBase: #156EDC;
+    --colorTexto: #393939;
+}
+.color1{
+    background-color: #ffffff;
 }

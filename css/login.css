@@ -11,7 +11,7 @@
     margin-top: 50px;
 
     /*------------------------*/
-    font-size: 12px; /*<---- TAMAÑO GENERAL DEL LOGIN*/
+    font-size: 15px; /*<---- TAMAÑO GENERAL DEL LOGIN*/
     width: 30em;
     height: 40em;
     border-radius: 5px;
@@ -83,4 +83,12 @@
     float: left;
     width: 1.1em;
     height: 1.1em;
+}
+
+@media only screen and (max-width: 1360px) {
+    
+    .rm_login{
+        font-size: 10px;/*<--- tamaño general*/
+    }
+
 }
