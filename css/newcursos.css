@@ -1,0 +1,76 @@
+/*CURSOS*/
+.NewCursos{
+    margin-top: 10px;
+    width: 100%;
+    height: 350 px;
+    padding: 10px;
+    background-color: white;
+	display: flex;
+  	flex-direction: row;
+	justify-content: space-around;
+}
+.curso {
+  width: 300px;
+  height: 300px;
+}
+.imgcurso {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.descripcion {
+  width: 100%;
+  margin-top: 10px;
+/*margin-bottom: 10px;*/
+}
+
+.descripcionp{
+    font-size: 13px;
+
+}
+.botonServicios {
+    padding-top: 20px;
+    text-align: center;
+	width: 100%;
+    margin: auto;
+}
+.botonServicios a{
+	text-decoration: none;
+    color: white;
+    /* color: black; */
+    background: rgb(15, 90, 230);
+    padding: 8px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:1200px) {
+
+    .NewCursos{
+        margin-top: 10px;
+        width: 100%;
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .NewCursos{
+        width: 100%;
+        height: auto;
+        
+
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .curso{
+        justify-content: center;
+    }
+}
+
+
