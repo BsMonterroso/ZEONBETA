@@ -1,51 +1,38 @@
-.contenedor{
-  width: 100%;
-  height: auto;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.contenido{
+    width: 100%;
+    margin: auto;
+    display: flex;
 }
+
 
 .banner {
+    display: inline-block;
     width: 100%;
-    height: 350px;
-    background-image:url(/img/banner.jpg);
-    background-position: center;
-    background-attachment:fixed;
+    height: 310px;;
+    background-image: url(../img/ultra.jpg);
+    background-size: cover;
+    text-align: end;
+    color:whitesmoke ;
 }
 
-.banner .slogan h1{
-    width: auto;
-    color: #fff;
-    /*ext-align:end;
-    padding-right: 150px;
-    padding-top: 80px;*/
-    text-decoration: none;
-    margin-left: 53.5%;
-   margin-top: 100px;
-}
+.banner h1{
+    margin-top: 45px;;
+    margin-right: 15%;
+} 
 
-.banner .info{
-    width:300px;
-    color: #fff;
-    text-decoration: none;
-    margin-left: 54%;
+.banner p{
     margin-top: 10px;
-    font-size: 17px;
+    margin-right: 15%;
 }
 
-.boton2 button{
-    cursor: pointer;
-    margin-top: 10px;
-    margin-right: 37%;
-    padding: 10px 18px;
+.button {
+    border-radius: 12px;
     border: none;
-    background: #156EDC;
-    color: #fff;
-    border-radius: 10px;
-    outline: none;
-    position: absolute; right: 0;
-    font-size: 15px;
+    color: white;
+    padding: 7px 12px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    background: #fd324e;
+    background: linear-gradient(to left, #fe344e, #ff7250);
 }

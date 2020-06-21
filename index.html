@@ -1,75 +1,58 @@
 <!DOCTYPE html>
+<html lang="es">
 
-<html>
-
-    <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/nav.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/banner.css">
-    <link rel="stylesheet" href="css/contenido.css">
-
-
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initical-scale=1.0">
+    <link rel="stylesheet" href="css/menusdecursos.css">
+    <link rel="stylesheet" href="css/newcursos.css">
+    <link rel="stylesheet" href="css/footer.css">
 
     <title>ZEON</title>
 </head>
 
 <body>
-
     <header>
         <nav>
-            <div class="menu">
-
-                <div class="logo">
-                    <a href="index.html"><img src="img/logoZeon.jpg"></a>
+            <div class="bs_izquierda">
+                <div class="bs_logo">
+                    <img src="img/logoZeon.png" alt="">
                 </div>
-                <!--div creado para adaptar a celular se oculta en el css-->
-                <div class="phone-top">
-
-                    <div class="img-phone">
-                        <a href="index.html"><img src="img/logoZeon.jpg"></a>
-                    </div>
-                    <div class="button-phone">
-                        <a href="login.html"><button class="inicia">Inicia Sesion</button></a>
-                    </div>
-                </div>
-                <!--aqui termina el div del celular-->
-
-                <div class="menus">
-                    <a href="index.html" class="hover">Inicio</a>
-                    <a href="cursos.html">Cursos</a>
-                    <a href="proyectos.html">Proyectos</a>
-                </div>
+                <a href="#">Inicio</a>
+                <a href="#">Cursos</a>
+                <a href="#">Proyectos</a>
             </div>
 
-            <div class="boton">
-                <a href="login.html"><button class="inicia">Inicia Sesion</button></a>
+            <div class="bs_derecha">
+                <a href="#">Iniciar Sesion</a>
             </div>
         </nav>
-
-        <div class="anuncio">
+        <div class="bs_anuncio">
             Mensaje para nuestros programadores por el covid19 >
         </div>
+
     </header>
+    <section class="bs_categorias">
+        <a href="#">Inicio</a>
+        <a href="#">Cursos</a>
+        <a href="#">Proyectos</a>
+    </section>
+
+<!-- -------------Banner de la paagina----------- -->
+    <div class="banner">
+        <h1>Tu Curso hacia el exito </h1>
+        <p>Adquiere habilidades con los cursos, certificados y<br> títulos en línea que ofrecen las universidades y<br> las
+            empresas más importantes del mundo.<p>
+
+        <a class="button" href="#">Conoce mas</a><!-- boton -->
+    </div>
+<!-- -------------Banner de la paagina----------- -->
 
 
-    <div class="contenedor">
-        <div class="banner">
-            <div class="slogan">
-                <h1>TU CURSO HACIA EL EXITO</h1>
-            </div>
-            <div class="info">
-                <p>Adquiere habilidades con los cursos, certificados y títulos en línea que ofrecen las universidades y las empresas más importantes del mundo.</p>
-            </div>
-
-            <div class="boton2">
-                <button class="unirte">Unirte Gratis</button>
-            </div>
-
-        </div>
-
-
+<!-- -------------primera seccion esta en el css de estilos----------- -->
         <div class="encabezado2">
             <div class="presentacion">
                 Aprendizaje de primera clase para todos, en cualquier lugar
@@ -79,29 +62,158 @@
                 <p>Capacitamos a tu empresa en transformación<br> digital y las tecnologías más competitivas del<br> mercado.</p>
             </div>
         </div>
+ 
+<!-- -------------primera seccion esta en el css de estilos----------- -->
+
+<!-- ------Seccion de los cursos/ su css es menusdecursos----------------------- -->
 
 
-        <nav>
-            <div class="barraLateral">
-                <div class="textosubmenu">
-                    <h2>Cursos</h2>
-                    <p>En los que nos especializamos:</p>
+<section class="ar_menulateral">
+    <div class="ar_contenedor">
+        <div class="ar_izquierda">
+            <h1>Cursos</h1>
+            <p class="ar_descripcion">En lo que nos especializamos</p>
+            <div class="ar_caja">
+                <div class="ar_dato">
+                    <p id="ar_btn1">Crecimento <br>
+                    profesional</p>
                 </div>
-
-                <div class="submenus">
-                    <a class="active" href="#">Crecimiento Profesional</a>
-                    <a href="#">Tecnologia e Innovacion</a>
-                    <a href="#">produccion audiovisual</a>
-                    <a href="#">progamacion orientada a objetos</a>
-                    <a href="#">progamacion basica</a>
+                <div class="ar_dato">
+                    <p id="ar_btn2">Tecnlogia e<br>
+                    innovacion</p>
                 </div>
-
+                <div class="ar_dato">
+                    <p id="ar_btn3">Produccion<br>
+                    audiovisual</p>
+                </div>
+                <div class="ar_dato">
+                    <p id="ar_btn4">Desarrollo y<br>
+                    diseño web</p>
+                </div>
+                <div class="ar_dato">
+                    <p id="ar_btn5">Programacion orientada<br>
+                   a obejetos</p>
+                </div>
             </div>
-        </nav>
+        </div>
+        <div class="ar_derecha" id="ar_caja">
+            <div class="ar_foto">
+                <img src="img/FreeLancer.png" alt="FreeLancer">
+            </div>
+            <div class="ar_caja">
+                <h2 id="ar_titulo">Tecnologia e innovacion</h2>
+                <p id="ar_descripcion">No te quedes atras y aprende  todo lo que nesecitas sobre el avance tecnologico que hay en el mundo, desde como como funciona la web hasta la.
+                </p>
+                <a href="#" id="enlace">Ver Curso</a>
+            </div>
+        </div>
+    </div>
+</section>
 
+
+<!-- ------Seccion de los cursos/ su css es menusdecursos----------------------- -->
+
+
+<div class="NewCursos">
+
+    <div class="curso">
+        <img class="imgcurso" src="img/flexbox.png">
+        <div class="descripcion">
+            <p class="descripcionp">Un curso de Bryan Steve <br> Cree e implemente flexbox en su pagina web.</p>
+            <div class="botonServicios">
+                <a class="" href="#">INFORMACION</a><!-- boton -->
+            </div>
+        </div>
     </div>
 
-    <footer>
-    </footer>
+    <div class="curso">
+        <img class="imgcurso" src="img/flexbox.png">
+        <div class="descripcion">
+            <p class="descripcionp">Un curso de Bryan Steve <br> Cree e implemente flexbox en su pagina web.</p>
+            <div class="botonServicios">
+                <a class="" href="#">INFORMACION</a><!-- boton -->
+            </div>
+        </div>
+    </div>
+    
+    <div class="curso">
+        <img class="imgcurso" src="img/flexbox.png">
+        <div class="descripcion">
+            <p class="descripcionp">Un curso de Bryan Steve <br> Cree e implemente flexbox en su pagina web.</p>
+            <div class="botonServicios">
+                <a class="" href="#">INFORMACION</a><!-- boton -->
+            </div>
+        </div>
+    </div>
+</div>
 
-</body></html>
+
+
+
+
+    <div class="footer">
+        <div class="contenedor-footer">
+            
+            <div class="footer-items">
+                <h1>ZEON</h1>
+                <p>
+                    No te quedes atras y aprende todo lo que nesecitas sobre el avance tecnologico que hay en el mundo, desde como como funciona la web hasta la.
+                </p>
+            </div>
+            
+            <div class="footer-items">
+                <h2>Servicios</h2>
+                <div class="border"> </div>
+                <ul>
+                    <a href="">Inicio<li></li></a>
+                    <a href=""><li>Equipo</li></a>
+                    <a href=""><li>Servicios</li></a>
+                    <a href=""><li>Galeria</li></a>
+                    <a href=""><li>Contacto</li></a>
+                </ul>
+            </div>
+            
+            <div class="footer-items">
+                <h2>Tutoriales</h2>
+                <div class="border"> </div>
+                <ul>
+                    <a href=""><li>HTML</li></a>
+                    <a href=""><li>CSS</li></a>
+                    <a href=""><li>JAVA</li></a>
+                    <a href=""><li>PHP</li></a>
+                    <a href=""><li>PS</li></a>
+                </ul>
+            </div>
+            
+            <div class="footer-items">
+                <h2>
+                    Contactanos</h2>
+                <div class="border"> </div>
+                <ul>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>Ciudad de Guatemala CITY</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i>41834284</li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i>mant@gmail.com</li>
+                </ul>
+                <div class="social-media">
+                    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            
+        </div>   
+        <div class="footer-bottom">
+            <a href="">Preguntas Frecuentes</a><a href="">Contactanos</a><a href="">Terminos y condiciones</a><a href="">privacidad</a>
+        </div>
+        
+    </div>
+
+</footer>
+
+
+<!-- --------------------------------------- -->
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/java.js"></script>
+</body>
+
+</html>
