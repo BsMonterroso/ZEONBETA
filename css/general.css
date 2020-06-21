@@ -14,6 +14,8 @@
 .body{
     width: 1200px;
     margin: auto;
+    margin-top: 10em;
+    margin-bottom: 10em;
     font-size: 10px;
 }
 .linea{

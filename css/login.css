@@ -67,11 +67,6 @@
     margin-top: 1em;
 }
 
-.rm_estiloCheck{
-    width: 100%;
-    height: 100%;
-}
-
 .rm_cajaCheck label{
     display: inline-block;
     margin-top: 0em;
@@ -83,6 +78,16 @@
     float: left;
     width: 1.1em;
     height: 1.1em;
+}
+
+.rm_cajaRegistrar{
+    padding-bottom: 2em;
+    text-align: end;
+}
+
+.rm_cajaRegistrar > a{
+    color: var(--colorBase);
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 1360px) {

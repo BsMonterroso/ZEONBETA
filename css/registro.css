@@ -4,15 +4,13 @@
     margin-top: 50px;
 
     /*------------------------*/
-    font-size: 12px; /*<---- TAMAÑO GENERAL DEL LOGIN*/
+    font-size: 15px; /*<---- TAMAÑO GENERAL DEL LOGIN*/
     width: 30em;
     height: 40em;
     border-radius: 5px;
     padding: 0px 2.5em 0px 2.5em;
     box-sizing: border-box;
 
-    -webkit-box-shadow: 0px 4px 9px -1px rgba(71,67,71,1);
-    -moz-box-shadow: 0px 4px 9px -1px rgba(71,67,71,1);
     box-shadow: 0px 4px 9px -1px rgba(71,67,71,1);
 
     display: flex;
