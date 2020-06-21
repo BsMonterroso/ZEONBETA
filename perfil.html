@@ -2,65 +2,65 @@
 
 <html lang="es">
 
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/nav.css">
-        <link rel="stylesheet" href="css/perfil.css">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/perfil.css">
 
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	    <meta name="viewport" content="width=device-width, initical-scale=1.0"> 
-        
-        <title>ZEON</title>
-    </head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initical-scale=1.0">
 
-    <body>
-        <header>
-            <nav>
-                <div class="menu">
-    
-                    <div class="logo">
+    <title>ZEON</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="menu">
+
+                <div class="logo">
+                    <a href="index.html"><img src="img/logoZeon.jpg"></a>
+                </div>
+                <!--div creado para adaptar a celular se oculta en el css-->
+                <div class="phone-top">
+
+                    <div class="img-phone">
                         <a href="index.html"><img src="img/logoZeon.jpg"></a>
                     </div>
-                    <!--div creado para adaptar a celular se oculta en el css-->
-                    <div class="phone-top">
-    
-                        <div class="img-phone">
-                            <a href="index.html"><img src="img/logoZeon.jpg"></a>
-                        </div>
-                        <div class="button-phone">
-                            <a href="login.html"><button class="inicia">Inicia Sesion</button></a>
-                        </div>
-                    </div>
-                    <!--aqui termina el div del celular-->
-    
-                    <div class="menus">
-                        <a href="index.html" class="hover">Inicio</a>
-                        <a href="cursos.html">Cursos</a>
-                        <a href="proyectos.html">Proyectos</a>
+                    <div class="button-phone">
+                        <a href="login.html"><button class="inicia">Inicia Sesion</button></a>
                     </div>
                 </div>
-    
-                <div class="boton">
-                    <a href="login.html"><button class="inicia">Inicia Sesion</button></a>
+                <!--aqui termina el div del celular-->
+
+                <div class="menus">
+                    <a href="index.html" class="hover">Inicio</a>
+                    <a href="cursos.html">Cursos</a>
+                    <a href="proyectos.html">Proyectos</a>
                 </div>
-            </nav>
-            
-            <div class="anuncio">
-                Los dinosaurios jamas existieron segun la bibli 
             </div>
-        </header>
-        <!----------------------- SECCIÓN DEL CUERPO DE LA PÁGINA ------------------------>
-        <section class="section100">
-            <div class="body">
+
+            <div class="boton">
+                <a href="login.html"><button class="inicia">Inicia Sesion</button></a>
+            </div>
+        </nav>
+
+        <!--<div class="anuncio">
+                Los dinosaurios jamas existieron segun la bibli 
+            </div>-->
+    </header>
+    <!----------------------- SECCIÓN DEL CUERPO DE LA PÁGINA ------------------------>
+    <section class="section100">
+        <div class="body orientacionDeCajas">
+
+            <!-------------------------------- CAJA DE PERFIL------------------------------------------->
+            <div class="rm_cajaDePerfiles">
 
                 <div class="rm_perfil">
-
                     <div id="rm_imgPerfil" class="rm_imgPerfil"></div>
-                    <p id="nombreEstudiante" class="nombreEstudiante">
-                        Jossue Emmanuel Fuentes O.
-                    </p>
-                    <p class="datos_perfil_estudiante">Estudiante / Tecnología</p>
+                    <p id="nombreEstudiante" class="nombreEstudiante">Jefuentes@</p>
+                    <p class="datos_perfil_estudiante">Estudiante / 1ro. Básico "A"</p>
                     <div class="pines">
                         <img class="pin" src="img/pines/pin1.png">
                         <img class="pin" src="img/pines/pin2.png">
@@ -70,114 +70,91 @@
                         <img class="pin" src="img/pines/pin6.png">
                     </div>
                     <div class="cajaCorreo">
-                        <p class="correoUsuario">jefuentes@gmail.com</p>
+                        <p class="rm_correoUsuario">jefuentes@gmail.com</p>
                     </div>
-                
+
                 </div>
             </div>
-        </section>
+            
+            <!----------------------- AREA DE CURSOS DEL ESTUDIANTE  ------------------------>
+            <div id="rm_cajaDeInformacionGeneral" class="rm_cajaDeInformacionGeneral">
 
-        <!----------------------- AREA DE CURSOS DEL ESTUDIANTE  ------------------------>
-        <section class="section100 color1">
-            <div class="body">
+                <div class="rm_cajaDeInformacionDeUsuario">
 
-                <h2>MIS CURSOS</h2>
-                <div class="linea"></div>
+                    <h2 class="rm_titulosPerfil">Información de la cuenta</h2>
 
-                <div class="cajaDecursos">
+                    <div>
+                        <span class="rm_tituloDato">Nombre:</span>
+                        <span class="rm_datoUsuario">Jossue Emmanuel</span>
+                        <div class="rm_botonEditar" id="rm_botonEditar">
+                            <img class="rm_imgEditar" src="img/iconos/editar.svg">
+                        </div>
+                    </div>
+                    <div>
+                        <span class="rm_tituloDato">Apellido:</span>
+                        <span class="rm_datoUsuario">Fuentes Ordoñez</span>
+                        <div class="rm_botonEditar" id="rm_botonEditar">
+                            <img class="rm_imgEditar" src="img/iconos/editar.svg">
+                        </div>
+                    </div>
+                    <div>
+                        <span class="rm_tituloDato">Establecimiento:</span>
+                        <span class="rm_datoUsuario">Colegio Los Testigos De Rockemma</span>
+                        <div class="rm_botonEditar" id="rm_botonEditar">
+                            <img class="rm_imgEditar" src="img/iconos/editar.svg">
+                        </div>
+                    </div>
+                    <div>
+                        <span class="rm_tituloDato">Grado:</span>
+                        <span class="rm_datoUsuario">1ro. Básico</span>
+                        <div class="rm_botonEditar" id="rm_botonEditar">
+                            <img class="rm_imgEditar" src="img/iconos/editar.svg">
+                        </div>
+                    </div>
+                    <div>
+                        <span class="rm_tituloDato">Correo:</span>
+                        <span class="rm_datoUsuario">jefuentes@rockemma.com</span>
+                        <div class="rm_botonEditar" id="rm_botonEditar">
+                            <img class="rm_imgEditar" src="img/iconos/editar.svg">
+                        </div>
+                    </div>
+                        
+                    
+                </div>
 
-                    <div class="curso">
+                <div id="cajaDecursos" class="cajaDecursos">
+                    <h2 class="rm_titulosPerfil">Mis cursos</h2>
+                    <!--<div class="curso">
                         <div class="imgCurso"></div>
                         <h3 class="tituloCurso">Introducción a redes informaticas nivel 1</h3>
-                       <p class="profesor">Profesor: Bell Gates</p>
+                        <p class="profesor">Profesor: Bell Gates</p>
                         <div class="cajaBotones">
                             <p class="porsentajeDelCurso">40%</p>
-                            <progress class="disBarraProgreso" min="0" max="100" value="40"></progress>
-                            <a href="#"><p class="botonContinuarCurso">Continuar</p></a>
+                            <progress id="barraDeProgreso" class="disBarraProgreso" min="0" max="100" value="40"></progress>
+                            <a href="#">
+                                <p class="botonContinuarCurso">Continuar</p>
+                            </a>
                         </div>
-                    </div>
-
-                    <div class="curso">
-                        <div class="imgCurso"></div>
-                        <h3 class="tituloCurso">Introducción a redes informaticas nivel</h3>
-                       <p class="profesor">Profesor: Bell Gates</p>
-                        <div class="cajaBotones">
-                            <p class="porsentajeDelCurso">50%</p>
-                            <progress class="disBarraProgreso" min="0" max="100" value="50"></progress>
-                            <a href="#"><p class="botonContinuarCurso">Continuar</p></a>
-                        </div>
-                    </div>
-
-                    <div class="curso">
-                        <div class="imgCurso"></div>
-                        <h3 class="tituloCurso">edes informaticas nivel 1</h3>
-                       <p class="profesor">Profesor: Bell Gates</p>
-                        <div class="cajaBotones">
-                            <p class="porsentajeDelCurso">100%</p>
-                            <progress class="disBarraProgreso" min="0" max="100" value="100"></progress>
-                            <a href="#"><p class="botonContinuarCurso" style="background-color: green;">Repasar</p></a>
-                        </div>
-                    </div>
-
-                    <div class="curso">
-                        <div class="imgCurso"></div>
-                        <h3 class="tituloCurso">edes informaticas nivel 1</h3>
-                       <p class="profesor">Profesor: Bell Gates</p>
-                        <div class="cajaBotones">
-                            <p class="porsentajeDelCurso">80%</p>
-                            <progress class="disBarraProgreso" min="0" max="100" value="80"></progress>
-                            <a href="#"><p class="botonContinuarCurso">Continuar</p></a>
-                        </div>
-                    </div>
-
-                    <div class="curso">
-                        <div class="imgCurso"></div>
-                        <h3 class="tituloCurso">edes informaticas nivel 1</h3>
-                       <p class="profesor">Profesor: Bell Gates</p>
-                        <div class="cajaBotones">
-                            <p class="porsentajeDelCurso">10%</p>
-                            <progress class="disBarraProgreso" min="0" max="100" value="10"></progress>
-                            <a href="#"><p class="botonContinuarCurso">Continuar</p></a>
-                        </div>
-                    </div>
-
-                    <div class="curso">
-                        <div class="imgCurso"></div>
-                        <h3 class="tituloCurso">edes informaticas nivel 1</h3>
-                       <p class="profesor">Profesor: Bell Gates</p>
-                        <div class="cajaBotones">
-                            <p class="porsentajeDelCurso">25%</p>
-                            <progress class="disBarraProgreso" min="0" max="100" value="25"></progress>
-                            <a href="#"><p class="botonContinuarCurso">Continuar</p></a>
-                        </div>
-                    </div>
+                    </div>-->
                 </div>
 
             </div>
-        </section>
+        </div>
+    </section>
 
 
-        <!----------------------- AREA DE CURSOS SUGERIDOS  ------------------------>
-        <section class="section100 color1">
-            <div class="body">
+    <!----------------------- AREA DE CURSOS SUGERIDOS  ------------------------>
+    <section class="section100 color1">
+        <div class="body">
 
-                <h2>CURSOS RELACIONADOS</h2>
-                <div class="linea"></div>
+            <h2>CURSOS RELACIONADOS</h2>
 
-                <div class="cajaDecursos">
-                    <div class="curso">
-                        <div class="imgCurso"></div>
-                        <h3 class="tituloCurso">Introducción a redes informaticas nivel 1</h3>
-                       <p class="profesor">Profesor: Bell Gates</p>
-                        <div class="cajaBotones">
-                            <a href="#"><p class="botonContinuarCurso">Cursar</p></a>
-                        </div>
-                    </div>
-                </div>
 
-            </div>
-        </section>
-        <!-------------------------- SECCIÓN DEL FOOTER ------------------------------->
-        <footer></footer>
-    </body>
+        </div>
+    </section>
+    <!-------------------------- SECCIÓN DEL FOOTER ------------------------------->
+    <footer></footer>
+    <script src="server/Desglose_de_cursos.js"></script>
+</body>
+
 </html>

@@ -9,14 +9,16 @@
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #F6F6F6;
+
 }
 .body{
     width: 1200px;
     margin: auto;
+    font-size: 10px;
 }
 .linea{
-    width: 40%;
-    height: 5px;
+    width: 100%;
+    height: auto;
     background-color: var(--colorBase);
 }
 
@@ -34,7 +36,7 @@
 /*COLORES DE LA PÁGINA*/
 :root{
     --colorBase: #156EDC;
-    --colorTexto: #393939;
+    --colorTexto: #848484;
 }
 .color1{
     background-color: #ffffff;
