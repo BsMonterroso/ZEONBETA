@@ -1,0 +1,55 @@
+.rm_cajaMenuDeCursos{
+    width: 25em;
+    height: 100em;
+    float: left;
+}
+.rm_linea{
+    width: 100%;
+    height: 0.2em;
+    background-color: var(--colorBase);
+}
+/*----------SECCIÓN DE NAVEGADOR DE CURSOS*/
+.rm_menuCursos{
+    list-style: none;
+    color: var(--colorTexto);
+    font-size: 1.5em;
+    margin: 1em 0em 1em 0em;
+    padding: 0.5em 0em 0.5em 0.5em;
+    cursor:pointer;
+    border-left: 0.2em solid var(--colorTexto);
+    transition: 0.6s;
+}
+.rm_seleccionado{
+    border-left: 0.2em solid var(--colorBase);
+    color: var(--colorBase);
+}
+.rm_titulo{
+    font-size: 2.5em;
+    color: var(--colorTexto);
+    margin:1em 0em 0.5em 0em;
+}
+.rm_menuCursos:hover{
+    border-left: 0.2em solid var(--colorBase);
+    background-color: var(--colorBase);
+    color: #ffffff;
+}
+
+/*-----------SECCIÓN DE CUADRO DE CURSO-----------*/
+
+.rm_cajaDeFiltrosDeCursos{
+    width: 95em;
+    height: 100em;
+    float: left;
+    padding: 2em 0em 0em 3em;
+    box-sizing: border-box;
+}
+
+.rm_curso{
+    font-size: 10px;
+    width: 28em;
+    height: 26em;
+    background-color: brown;
+    border-radius: 1em;
+    margin: 1em ;
+    float: left;
+}
