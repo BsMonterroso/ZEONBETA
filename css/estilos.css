@@ -94,19 +94,19 @@ header nav {
 }
 
 .encabezado2{
-    margin-top: 8px;
+    margin-top: 10px;
     justify-content: center; 
     text-align: center;
     width: 100%;   
 }
 
 .encabezado2 .presentacion{
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 23px;
+    font-weight: 0;
 }
 
 .encabezado2 .explicacion{
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 5px;
 }
 
