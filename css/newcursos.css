@@ -43,7 +43,7 @@
     transition: 300ms;
 }
 
-.botonServicios a:hover{
+.botonServicios a:hover{    
     padding: 10px 50px;
     border-radius: 10px;
 }
