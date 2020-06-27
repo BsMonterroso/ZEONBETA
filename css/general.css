@@ -4,6 +4,11 @@
     text-decoration: none;
     font-family: sans-serif;
 }
+
+a{
+    text-decoration: none;
+}
+
 .section100{
     width: 100%;
     padding-top: 50px;

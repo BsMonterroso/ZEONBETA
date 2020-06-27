@@ -4,7 +4,12 @@ var nombre_del_curso = [
     "Educacion para niños pequeños",
     "Introducción a redes informaticas nivel 1",
     "Java para aplicaciones android",
+    "Educacion para niños pequeños",
+    "Introducción a redes informaticas nivel 1",
+    "Java para aplicaciones android",
     "Educacion para niños pequeños"
+    ,
+    "Curso de la atalalla"
 ];
 var profesorQueImparte = [
     "Profesor: Bell Gates",
@@ -12,7 +17,10 @@ var profesorQueImparte = [
     "Maria Celeste",
     "Profesor: Bell Gates",
     "Alber Solorzano",
-    "Maria Celeste"
+    "Maria Celeste",  "Profesor: Bell Gates",
+    "Alber Solorzano",
+    "Maria Celeste",
+    "Brayan Stuardo"
 ];
 var progresoDelCurso = [
     75,
@@ -20,7 +28,12 @@ var progresoDelCurso = [
     25,
     10,
     30,
+    100,
+    10,
+    30,
     100
+    ,
+    10
 ];
 
 
