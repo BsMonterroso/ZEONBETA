@@ -5,11 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/menusdecursos.css">
     <link rel="stylesheet" href="css/newcursos.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/fomulario.css">
 
     <title>ZEON</title>
 </head>
@@ -98,7 +102,7 @@
         </div>
         <div class="ar_derecha" id="ar_caja">
             <div class="ar_foto">
-                <img src="img/FreeLancer.png" alt="FreeLancer">
+                <img src="img/indexB/FreeLancer.png" alt="FreeLancer">
             </div>
             <div class="ar_caja">
                 <h2 id="ar_titulo">Tecnologia e innovacion</h2>
@@ -117,7 +121,7 @@
 <div class="NewCursos">
 
     <div class="curso">
-        <img class="imgcurso" src="img/flexbox.png">
+        <img class="imgcurso" src="img/indexB/flexbox.png">
         <div class="descripcion">
             <p class="descripcionp">Un curso de Bryan Steve <br> Cree e implemente flexbox en su pagina web.</p>
             <div class="botonServicios">
@@ -127,7 +131,7 @@
     </div>
 
     <div class="curso">
-        <img class="imgcurso" src="img/flexbox.png">
+        <img class="imgcurso" src="img/indexB/flexbox.png">
         <div class="descripcion">
             <p class="descripcionp">Un curso de Bryan Steve <br> Cree e implemente flexbox en su pagina web.</p>
             <div class="botonServicios">
@@ -137,7 +141,7 @@
     </div>
     
     <div class="curso">
-        <img class="imgcurso" src="img/flexbox.png">
+        <img class="imgcurso" src="img/indexB/flexbox.png">
         <div class="descripcion">
             <p class="descripcionp">Un curso de Bryan Steve <br> Cree e implemente flexbox en su pagina web.</p>
             <div class="botonServicios">
@@ -150,7 +154,42 @@
 
 
 
+<!-- ------Seccion de registrarse---------------------- -->
+<section class="bs_menulateral">
+    <div class="bs_contenedor">
+        <div class="bs_izquierda">
+            <h1>Registrate o inicia Sesion</h1>
+            <p class="bs_descripcion">Es de forma gratuita y gozaras de información  y <br>ofertas únicas.<br>
+                !No lo dudes¡ 
+            </p>
 
+                <div class="bs_franjaazul"></div>
+          
+            <p class="bs2_descripcion">Al registrarte aceptas nuestras condiciones de <br> servicio de uso,<br> además de recibir ofertas por correo electrónico.
+            </p>
+        </div>
+        
+        
+        <div class="bs_derecha" id="ar_caja">
+            <div class="bs_foto">
+                <img src="FreeLancer.png" alt="FreeLancer">
+            </div>
+        <div class="bs_caja">
+                <input id="bs_User" class="estilotexto" type="email" placeholder="Correo electronico">
+                
+                <div class="input-group">
+                <input ID="txtPassword" type="Password" Class="form-control" placeholder="password">
+                <div class="input-group-append">
+                <button id="show_password" class="btn btn-primary" type="button" onclick="mostrarPassword()"> <span class="fa fa-eye-slash icon"></span> </button>
+                </div>
+                </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- ------Seccion de registrarse---------------------- -->
     <div class="footer">
         <div class="contenedor-footer">
             
@@ -210,10 +249,10 @@
 
 </footer>
 
-
 <!-- --------------------------------------- -->
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/java.js"></script>
+    <script src="server/jquery-3.5.1.js"></script>
+    <script src="server/java.js"></script>
+    <script src="server/ojo.js"></script>
 </body>
 
 </html>
