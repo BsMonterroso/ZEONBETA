@@ -1,19 +1,23 @@
 .rm_cajaMenuDeCursos{
+
+    font-size: 10px;/*TAMAÑO GENERAL DEL MENU*/
+
     width: 25em;
     height: 100em;
     float: left;
 }
 .rm_linea{
     width: 100%;
-    height: 0.2em;
+    height: 0.3em;
     background-color: var(--colorBase);
 }
 /*----------SECCIÓN DE NAVEGADOR DE CURSOS*/
+
 .rm_menuCursos{
     list-style: none;
     color: var(--colorTexto);
     font-size: 1.5em;
-    margin: 1em 0em 1em 0em;
+    margin: 0.5em 0em 0.5em 0em;
     padding: 0.5em 0em 0.5em 0.5em;
     cursor:pointer;
     border-left: 0.2em solid var(--colorTexto);
@@ -46,8 +50,8 @@
 
 .rm_curso{
     font-size: 10px;
-    width: 28em;
-    height: 26em;
+    width: 25em;
+    height: 25em;
     background-color: #F6F6F6;
     border-radius: 1em;
     margin: 1em ;

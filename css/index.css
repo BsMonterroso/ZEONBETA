@@ -1,0 +1,219 @@
+/*SECCIÓN  DEL BANNER*/
+.img_bannerIndex {
+    height: 40em;
+    background-image: url(../img/index/ultra.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contenidoBanner_index{
+    height: 20em;
+    text-align: end;
+    color:whitesmoke;
+}
+.tituloBanner{
+    font-size: 5em;
+} 
+.parrafoBenner{
+    margin-top: 0.5em;
+    font-size: 2em;
+}
+
+.button {
+    display: block;
+    width: 8em;
+    margin-top: 1em;
+    float: right;
+    border-radius: 3px;
+    color: white;
+    padding: 0.7em 0.7em 0.7em 0.7em;
+    font-size: 1.8em;
+    text-align: center;
+    background: linear-gradient(to left, #fe344e, #ff7250);
+}
+
+/*---------------MENSAJE INICIAL------------*/
+.index_presentacion{
+    font-size: 3em;
+    text-align: center;
+    color: var(--colorTextoFuerte);
+}
+.index_texto{
+    font-size: 2em;
+    text-align: center;
+    color: var(--colorTextoFuerte);
+}
+
+
+/*---  SECCIÓN DE ANUNCIÓN DE CURSO DISPONIBLES ------*/
+.rm_cajaMenuDeCursos{
+
+    font-size: 10px;/*<-- TAMAÑO GENERAL DEL MENU*/
+
+    width: 25em;
+    height: 40em;
+    float: left;
+}
+.rm_linea{
+    width: 100%;
+    height: 0.2em;
+    background-color: var(--colorBase);
+}
+/*--------*/
+.rm_menuCursos{
+    list-style: none;
+    color: var(--colorTexto);
+    font-size: 1.6em;
+    margin: 0.5em 0em 0.5em 0em;
+    padding: 0.5em 0em 0.5em 0.5em;
+    cursor:pointer;
+    border-left: 0.2em solid var(--colorTexto);
+    transition: 0.5s;
+}
+.rm_seleccionado{
+    border-left: 0.2em solid var(--colorBase);
+    color: var(--colorBase);
+}
+.rm_titulo{
+    font-size: 2.5em;
+    color: var(--colorTexto);
+    margin:1em 0em 0.5em 0em;
+}
+.rm_menuCursos:hover{
+    border-left: 0.5em solid var(--colorBase);
+    background-color: var(--colorBase);
+    color: #ffffff;
+}
+/*------------*/
+.rm_cajaDeFiltrosDeCursos{
+    width: 80em;
+    height: 40em;
+    float: right;
+    padding: 1em 0em 0em 2em;
+    box-sizing: border-box;
+    background-color: #F8F8F8;
+}
+.rm_imgCategoriaIndex{
+    width: 40em;
+    float: left;
+    overflow: hidden;
+}
+.rm_imgCategoriaIndex>img{
+    width: 100%;
+    margin-top: 5em;
+}
+.rm_descripcionCategoriaIndex{
+    width: 37em;
+    float: right;
+    overflow: hidden;
+    padding-top: 3em;
+    box-sizing: border-box;
+}
+.numeroIndex{
+    font-size: 4em;
+}
+.rm_descripcionCategoriaIndex>h3{
+    color: var(--colorBase);
+    font-size: 3em;
+    text-align: center;
+}
+.rm_descripcionCategoriaIndex>p{
+    color: var(--colorTexto);
+    font-size: 2em;
+    text-align: center;
+}
+.buttonCategoriaIndex {
+    display: block;
+    width: 8em;
+    margin: auto;
+    margin-top: 1em;
+    border-radius: 3px;
+    color: white;
+    padding: 0.7em 0.7em 0.7em 0.7em;
+    font-size: 1.8em;
+    text-align: center;
+    background: linear-gradient(to left, #0C9546, #1DE370);
+}
+/* Categorias */
+.bs_categorias {
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+
+.bs_categorias a {
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(0, 124, 182);
+    margin: 20px;
+}
+.encabezado2{
+    margin-top: 10px;
+    justify-content: center; 
+    text-align: center;
+    width: 100%;   
+}
+
+.encabezado2 .presentacion{
+    font-size: 23px;
+    font-weight: 0;
+}
+
+.encabezado2 .explicacion{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width:1200px) {
+    header nav {
+        width: 100%;
+    }
+    .bs_anuncio {
+    width: 100%;
+    background: #156EDC;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+
+}
+
+@media screen and (max-width:950px) {
+    header .bs_izquierda {
+        width: 40%;
+    }
+
+    header .bs_izquierda .bs_logo {
+        width: 70%;
+    }
+
+    header .bs_izquierda .bs_logo img {
+        width: 80%;
+    }
+
+    nav .bs_izquierda a {
+        display: none;
+    }
+
+    .bs_categorias {
+        display: block;
+    }
+
+    .bs_derecha a {
+        font-size: 15px;
+        padding: 10px;
+
+    }
+
+    .bs_derecha a:hover {
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .bs_anuncio {
+    width: 100%;
+    background: #156EDC;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+
+}

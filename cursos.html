@@ -6,12 +6,10 @@
         <meta charset="utf-8">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/estilos.css">
-        <link rel="stylesheet" href="css/banner.css">
-        <link rel="stylesheet" href="css/cursos.css">
+        <link rel="stylesheet" href="css/nav.css">
         <link rel="stylesheet" href="css/footer.css">
-        
-        
+        <link rel="stylesheet" href="css/cursos.css">
+
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	    <meta name="viewport" content="width=device-width, initical-scale=1.0"> 
         
@@ -19,86 +17,128 @@
     </head>
 
     <body>
-  
-        <header>
-            <nav>
-                <div class="bs_izquierda">
-                    <div class="bs_logo">
-                        <img src="img/logoZeon.png" alt="">
-                    </div>
-                    <a href="index.html">Inicio</a>
-                    <a href="cursos.html">Cursos</a>
-                    <a href="#">Proyectos</a>
-                </div>
-    
-                <div class="bs_derecha">
-                    <a href="login.html">Iniciar Sesion</a>
-                </div>
+        <!--SECCIÓN DEL NAVEGADOR-->
+        <header class="header">
+            <img class="logo" src="img/logoZeon.png" alt="">
+            <nav class="navegacion">
+                <ul class="nav">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="#">Proyectos</a></li>
+                </ul>
             </nav>
-            <div class="bs_anuncio">
-                Mensaje para nuestros programadores por el covid19 >
+            <div class="nav_derecha">
+                <a class="botonIniciarSesion" href="login.html">Iniciar Sesion</a>
             </div>
-    
         </header>
-        <section class="bs_categorias">
-            <a href="index.html">Inicio</a>
-            <a href="cursos.html">Cursos</a>
-            <a href="#">Proyectos</a>
-        </section>
 
-        <div class="body">
-            <div class="rm_cajaMenuDeCursos">
+        <!-- -------------SECCIÓN DEL MENSAJE----------- -->
+        <div class="bs_anuncio">QUEDATE EN CASA COVID-19</div>
 
-                <ul>
-                    <li class="rm_menuCursos rm_seleccionado">Cursos</li>
-                    <li class="rm_menuCursos">Cursos Nuevos</li>
-                    <li class="rm_menuCursos">Cursos Populares</li>
-                    <li class="rm_menuCursos">Paquete de cursos</li>
-                </ul>
+        <!------------------------------- SECCIÓN DEL CUERPO DE LA PÁGINA ------------------->
+        <div class="section100">
+            <div class="body">
+                <div class="rm_cajaMenuDeCursos">
 
-                <h2 class="rm_titulo">Categorias</h2>
-                <div class="rm_linea"></div>
+                    <ul>
+                        <li class="rm_menuCursos rm_seleccionado">Cursos</li>
+                        <li class="rm_menuCursos">Cursos Nuevos</li>
+                        <li class="rm_menuCursos">Cursos Populares</li>
+                        <li class="rm_menuCursos">Paquete de cursos</li>
+                    </ul>
 
-                <ul>
-                    <li class="rm_menuCursos rm_seleccionado">Crecimiento profesional</li>
-                    <li class="rm_menuCursos">Tecnología e innovacion</li>
-                    <li class="rm_menuCursos">Producción audiovisual</li>
-                    <li class="rm_menuCursos">Programación orientada a objetos</li>
-                </ul>
+                    <h2 class="rm_titulo">Categorias</h2>
+                    <div class="rm_linea"></div>
 
-                <h2 class="rm_titulo">Areas</h2>
-                <div class="rm_linea"></div>
+                    <ul>
+                        <li class="rm_menuCursos">Crecimiento profesional</li>
+                        <li class="rm_menuCursos">Tecnología e innovacion</li>
+                        <li class="rm_menuCursos">Producción audiovisual</li>
+                        <li class="rm_menuCursos">Programación orientada a objetos</li>
+                    </ul>
 
-                <ul>
-                    <li class="rm_menuCursos rm_seleccionado">Fundamentos de programacion</li>
-                    <li class="rm_menuCursos">Desarrollo de aplicaciones Android</li>
-                    <li class="rm_menuCursos">Desarrollo de JAVA</li>
-                    <li class="rm_menuCursos">Diseño grafico</li>
-                    <li class="rm_menuCursos">Marketing y ventas</li>
-                </ul>
+                    <h2 class="rm_titulo">Areas</h2>
+                    <div class="rm_linea"></div>
 
-            </div>
-            <div class="rm_cajaDeFiltrosDeCursos">
+                    <ul>
+                        <li class="rm_menuCursos">Fundamentos de programacion</li>
+                        <li class="rm_menuCursos">Desarrollo de aplicaciones Android</li>
+                        <li class="rm_menuCursos">Desarrollo de JAVA</li>
+                        <li class="rm_menuCursos">Diseño grafico</li>
+                        <li class="rm_menuCursos">Marketing y ventas</li>
+                    </ul>
 
-                <a href="#">
-                <div class="rm_curso">
-                    <div class="rm_cajaImgCurso">
-                        <img class="rm_imgCurso" src="img/imgCursos/design.webp">
-                    </div>
-                    <h2 class="rm_tituloCurso">Siseño UX</h2>
-                    <p class="rm_parrafoCurso">A prende la lógica de programación, luego de esto 
-                        podras aprender cualquier lenguaje.</p>
-                    <a class="rm_botonVerMas" href="#">ver mas</a>
                 </div>
-            </a>
+                <div class="rm_cajaDeFiltrosDeCursos">
 
+                    <a href="#">
+                    <div class="rm_curso">
+                        <div class="rm_cajaImgCurso">
+                            <img class="rm_imgCurso" src="img/imgCursos/design.webp">
+                        </div>
+                        <h2 class="rm_tituloCurso">Siseño UX</h2>
+                        <p class="rm_parrafoCurso">A prende la lógica de programación, luego de esto 
+                            podras aprender cualquier lenguaje.</p>
+                        <a class="rm_botonVerMas" href="#">ver mas</a>
+                    </div>
+                </a>
+
+                </div>
             </div>
         </div>
    
         
   <!---------------------------- SECCIÓN DEL FOOTER ------------------------------->
-  <footer>
-
+ <footer class="footer">
+    <div class="contenedor-footer">
+        
+        <div class="footer-items">
+            <h1>ZEON</h1>
+            <p>
+                No te quedes atras y aprende todo lo que nesecitas sobre el avance tecnologico que hay en el mundo, desde como como funciona la web hasta la.
+            </p>
+        </div>
+        
+        <div class="footer-items">
+            <h2>Servicios</h2>
+            <div class="border"> </div>
+            <ul>
+                <a href="">Inicio<li></li></a>
+                <a href=""><li>Equipo</li></a>
+                <a href=""><li>Servicios</li></a>
+                <a href=""><li>Galeria</li></a>
+                <a href=""><li>Contacto</li></a>
+            </ul>
+        </div>
+        
+        <div class="footer-items">
+            <h2>Tutoriales</h2>
+            <div class="border"> </div>
+            <ul>
+                <a href=""><li>HTML</li></a>
+                <a href=""><li>CSS</li></a>
+                <a href=""><li>JAVA</li></a>
+                <a href=""><li>PHP</li></a>
+                <a href=""><li>PS</li></a>
+            </ul>
+        </div>
+        
+        <div class="footer-items">
+            <h2>
+                Contactanos</h2>
+            <div class="border"> </div>
+            <ul>
+                <li><i class="fa fa-map-marker" aria-hidden="true"></i>Ciudad de Guatemala CITY</li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i>41834284</li>
+                <li><i class="fa fa-envelope" aria-hidden="true"></i>mant@gmail.com</li>
+            </ul>
+        </div>
+        
+    </div>   
+    <div class="footer-bottom">
+        <a href="">Preguntas Frecuentes</a><a href="">Contactanos</a><a href="">Terminos y condiciones</a><a href="">privacidad</a>
+    </div>
+    
 </footer>
     </body>
 </html>

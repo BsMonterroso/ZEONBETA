@@ -64,30 +64,30 @@
     width: 40px;
     background: #156EDC;
 }
-ul{
+.footer-items>ul{
     list-style: none;
     color: black;
     font-size: 15px;
     letter-spacing: 0.5px;
 }
 
-ul a{
+.footer-items>ul>a{
     text-decoration: none;
     outline: none;
     color:black;
     transition: 0.3s;
 }
 
-ul a:hover{
+.footer-items>ul>a:hover{
     color: #156EDC;
 }
 
-ul li{
+.footer-items>ul>li{
     margin: 10px 0px;
     height: auto;
 }
 
-li i{
+.footer-items>ul>li>i{
     margin-right: 8px;
 }
 

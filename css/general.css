@@ -1,8 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     text-decoration: none;
-    font-family: sans-serif;
+
+    font-family:sans-serif;
 }
 
 a{
@@ -11,24 +13,30 @@ a{
 
 .section100{
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #F6F6F6;
-
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background-color: #ffffff;
+    overflow: hidden;
 }
 .body{
     width: 1200px;
     margin: auto;
-    margin-top: 5em;
-    margin-bottom: 10em;
+    margin-bottom: 4em;
     font-size: 10px;
 }
+.texto{
+    font-size: 2em;
+}
+
 .linea{
     width: 100%;
     height: auto;
     background-color: var(--colorBase);
 }
 
+body{
+    font-size: 10px;
+}
 /*MEDIDAS PARA EL TELEFONO*/
 
 /*RESOLUCIÓN DE 767*/
@@ -43,8 +51,19 @@ a{
 /*COLORES DE LA PÁGINA*/
 :root{
     --colorBase: #156EDC;
-    --colorTexto: #848484;
+    --colorTexto:  #848484;
+    --colorTextoFuerte: #5B5B5B;
 }
 .color1{
     background-color: #ffffff;
+}
+
+
+
+
+
+/*------- CLASES PARA EL USO DE DESARROLLO*/
+
+.desColor{
+    background-color: red;
 }
