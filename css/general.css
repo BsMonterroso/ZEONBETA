@@ -21,7 +21,6 @@ a{
 .body{
     width: 1200px;
     margin: auto;
-    margin-bottom: 4em;
     font-size: 10px;
 }
 .texto{
@@ -50,9 +49,13 @@ body{
 
 /*COLORES DE LA PÁGINA*/
 :root{
-    --colorBase: #156EDC;
+    --colorBase: #035aa6;
+    --colorBase2: #40bad5;
+    --colorBase3: #689F38;
+    --colorBase4: #120136;
+    --colorBase5: #fcbf1e;
     --colorTexto:  #848484;
-    --colorTextoFuerte: #5B5B5B;
+    --colorTextoFuerte: #6D6D6D;
 }
 .color1{
     background-color: #ffffff;

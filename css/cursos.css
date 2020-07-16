@@ -54,7 +54,7 @@
     height: 25em;
     background-color: #F6F6F6;
     border-radius: 1em;
-    margin: 1em ;
+    margin: 2.4em ;
     float: left;
     position: relative;
 }
@@ -74,13 +74,13 @@
 
 .rm_tituloCurso{
     font-size: 1.6em;
-    margin: 1em 0.5em 0.3em 0.5em;
-    color: var(--colorTexto);
+    margin: 1em 0.5em 0.3em 1.1em;
+    color: var(--colorBase);
 }
 
 .rm_parrafoCurso{
     font-size: 1.3em;
-    margin: 0em 0.5em 0.5em 0.5em;
+    margin: 0em 0.5em 0.5em 1.5em;
     color: var(--colorTexto);
 }
 
@@ -92,8 +92,11 @@
     color: #ffffff;
     font-size: 1.4em;
     text-align: center;
-    background-color: var(--colorBase);
+    background-color: var(--colorBase2);
     position: absolute;
     right: 0.5em;
     bottom: 1em;
+}
+.rm_botonGratis{
+    background-color: var(--colorBase3);
 }
